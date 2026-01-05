@@ -6,8 +6,8 @@ public class MenghitungTotalBayar07 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int harga;
-        double potongan, jmlBayar, diskon = 0.15;
+        //int harga;
+        double potongan, jmlBayar, diskon = 0.15, harga;
 
         System.out.print("Masukkan harga: ");
         harga = sc.nextInt();
