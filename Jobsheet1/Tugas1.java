@@ -1,14 +1,19 @@
 package Jobsheet1;
+import java.util.Scanner;
 
 public class Tugas1 {
     public static void main(String[] args) {
-        
-        int gajiPokok = 3000000, tunjanganAnak = 150000, jmlAnak = 3, jmlTunjanganAnak;
+        Scanner sc = new Scanner(System.in);
+
+        int gajiPokok, tunjanganAnak, jmlAnak, jmlTunjanganAnak;
         double simpananWajib = 0.05, jmlSimpananWajib, gajiBersih;
 
-        System.out.println("Jumlah gaji pokok adalah: " + gajiPokok);
-        System.out.println("Jumlah tunjangan anak per bulan adalah: " + tunjanganAnak);
-        System.out.println("Jumlah anak bu jesi adalah: " + jmlAnak);
+        System.out.print("Jumlah gaji pokok adalah: ");
+        gajiPokok = sc.nextInt();
+        System.out.print("Jumlah tunjangan anak per bulan adalah: ");
+        tunjanganAnak = sc.nextInt();
+        System.out.print("Jumlah anak bu jesi adalah: ");
+        jmlAnak = sc.nextInt();
         System.out.println("Simpanan wajib dana pensiun dari gaji pokok = " + simpananWajib);
 
         jmlSimpananWajib = gajiPokok * simpananWajib;
