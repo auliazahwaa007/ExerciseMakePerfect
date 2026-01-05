@@ -1,13 +1,22 @@
 package Jobsheet1;
 
+import java.util.Scanner;
+
 public class Tugas2 {
     public static void main(String[] args) {
-        
-        int lebar = 50, panjang = 100, diameter = 2, panjangSisi = 2, luasTanah;
-        double luasKolamLingkaran, luasKolamPersegi, jari2Lingkaran, luasRumput;
+        Scanner sc = new Scanner(System.in);
 
-        System.out.println("Lebar tanah adalah: " + lebar + " Meter");
-        System.out.println("Panjang tanah adalah: " + panjang + " Meter");
+        //int lebar, panjang, diameter, panjangSisi, luasTanah;
+        double luasKolamLingkaran, luasKolamPersegi, jari2Lingkaran, luasRumput, lebar, panjang, diameter, panjangSisi, luasTanah;
+
+        System.out.print("Lebar tanah adalah: ");
+        lebar = sc.nextDouble();
+        System.out.print("Panjang tanah adalah: ");
+        panjang = sc.nextDouble();
+        System.out.print("Diameter kolam lingkaran adalah: ");
+        diameter = sc.nextDouble();
+        System.out.print("Panjang sisi kolam persegi adalah: ");
+        panjangSisi = sc.nextDouble();
         
         luasTanah = panjang * lebar;
         jari2Lingkaran = diameter / 2;
