@@ -11,7 +11,6 @@ public class SearchNilai07 {
 
         int[] arrNilai = new int[n];
 
-        // Input nilai mahasiswa
         for (int i = 0; i < n; i++) {
             System.out.print("Masukkan nilai mahasiswa ke-" + (i + 1) + ": ");
             arrNilai[i] = sc.nextInt();
