@@ -1,4 +1,4 @@
-package AnotherExercise;
+package AnotherExercise.Pemilihan;
 
 import java.util.Scanner;
 
