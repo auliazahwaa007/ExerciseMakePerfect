@@ -15,6 +15,5 @@ public class checkKelulusan {
         } else {
             System.out.println("Nilai Anda belum mencukupi silahkan mencoba kembali.");
         }
-        sc.close();
     }
 }
